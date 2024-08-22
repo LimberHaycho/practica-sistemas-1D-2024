@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const correctoName = 'limber';
-    const correctoContraseña = 'limber1234';
+    const correctoContraseña = 'limberruth';
     const maxIntentos = 6;
     let intentos = 0;
 
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const enterdContraseña = contraseñaInput.value;
 
         if (enterdName === correctoName &&  enterdContraseña === correctoContraseña) {
-            window.location.href = 'limber-huaycho.html';
+            window.location.href = 'Limber-Huaycho.html';
         }
         else {
             intentos++;
