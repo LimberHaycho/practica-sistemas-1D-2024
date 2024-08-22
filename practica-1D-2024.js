@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const correctoName = 'limber';
     const correctoContraseña = 'limberruth';
+    const correcto1Name = 'user'
+    const correcto1Contraseña = '123456789'
     const maxIntentos = 6;
     let intentos = 0;
 
@@ -15,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const enterdName = nameInput.value;
         const enterdContraseña = contraseñaInput.value;
 
-        if (enterdName === correctoName &&  enterdContraseña === correctoContraseña) {
+        if (enterdName === correctoName &&  enterdContraseña === correctoContraseña || enterdName === correcto1Name && enterdContraseña === correcto1Contraseña ) {
             window.location.href = 'Limber-Huaycho.html';
         }
         else {
