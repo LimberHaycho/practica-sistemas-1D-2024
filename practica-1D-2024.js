@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const correctoName = 'limber';
     const correctoContraseña = 'limber1234';
-    const maxIntentos = 3;
+    const maxIntentos = 6;
     let intentos = 0;
 
     const form = document.getElementById('loginForm1')
