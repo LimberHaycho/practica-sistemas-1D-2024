@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://www.investor.bg/media/files/resized/article/1600x/836/6b83412d64168711efdcebe13100a836-0000329898-article3.jpg);
+}
+h1 {
+    padding-bottom: 40px;
+    color: rgb(5, 221, 59); /* COLOR DEL TITULO*/
+}
+.container2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 5px;
+    border: 20px;
+
+    border: 2px solid #69f;
+    border-color: rgb(10, 64, 245);
+    border-radius: 10px;
+}
+.container3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 5px;
+    border: 20px;
+}
+input {
+    width: 100%;
+    padding: 9px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: rgb(226, 3, 3);
+}
+a:active {
+    color: rgb(17, 226, 52); /*TEXTO ACTIVE AL CLICK*/
+}
+.container2:hover {
+    color: blueviolet;
+    background-color: gold;
+}
+.container2:active {
+    background-color: mistyrose;
+}
